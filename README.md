@@ -12,15 +12,18 @@
  - The checkCashRegister() function should always return an object with a status key and a change key.
  
  - if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+   
    ✅ Return {status: "INSUFFICIENT_FUNDS", change: []}
 
  - if with cash-in-drawer  is equal to the change due.
+
    ✅ Return {status: "CLOSED", change: [...]}
 
  - Otherwise
+
    ✅ return {status: "OPEN", change: [...]}
    
- - with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
+ Note => with the change, sorted in highest to lowest order, as the value of the change key.
 
  ![image](https://github.com/Hager-elhwarii/Cash-Register/assets/80959882/29711409-bd86-47b4-8d37-e8920dc77505)
 
