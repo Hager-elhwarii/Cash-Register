@@ -3,11 +3,11 @@
   
 - Cash Register is a function that accepts three arguments:-
   
-  1️⃣ (price) => purchase price as the first argument.
+  1️⃣  (price) => purchase price as the first argument.
 
-  2️⃣	(cash) => payment as the second argument.
+  2️⃣	 (cash) => payment as the second argument.
 
-  3️⃣	(cid) => is a 2D array listing available currency.
+  3️⃣   (cid) => is a 2D array listing available currency.
 
  - The checkCashRegister() function should always return an object with a status key and a change key.
  
